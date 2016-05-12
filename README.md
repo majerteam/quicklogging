@@ -1,0 +1,2 @@
+# quicklogging
+Python logging wrapper
