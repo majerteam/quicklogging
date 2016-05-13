@@ -71,3 +71,28 @@ def critical(*args, **kwargs):
 
 def exception(*args, **kwargs):
     _log_with_level('exception', stackoverhead=1, *args, **kwargs)
+
+
+_CUR_LOGGER_CHILDREN = object()
+def catch_prints(
+    catch_all=False
+    include_children=_CUR_LOGGER_CHILDREN,
+    exclude_children=(),
+    warn='never'
+    ):
+    """trigger print() catching: redirects calls to a logger
+
+    By default, only catches calls to print() from logger
+
+    * named after the calling module
+    * children of this logger
+
+    this is not implemented yet: API should be discussed a bit
+
+    :param bool catch_all: should catch all print() diregarding where
+        they're from ?
+    :param warn: one of "always", "once", "never"
+    :param string include_children: include children of logger designed by name
+    :param iterable exclude_children
+    """
+    raise NotImplementedError("Not yet, wait a bit!")
