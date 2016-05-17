@@ -1,6 +1,6 @@
 .. _majerti: http://majerti.fr
 
-
+|docs|
 
 Documentation for quicklogging
 ================================
@@ -49,3 +49,8 @@ Contents
    task_oriented
    source_doc
    logging_survival
+
+.. |docs| image:: https://readthedocs.org/projects/quicklogging/badge/?version=latest
+    :alt: Documentation Status
+    :scale: 100%
+    :target: https://quicklogging.readthedocs.io/en/latest/?badge=latest
