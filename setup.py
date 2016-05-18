@@ -13,7 +13,7 @@ config = {
     'version': '0.2',
     'packages': ['quicklogging'],
     'setup_requires': ['pytest-runner'],
-    'tests_require': ['pytest', 'pytest-coverage', 'six', 'stringimporter>=0.1.3'],
+    'tests_require': ['pytest', 'pytest-cov', 'six', 'stringimporter>=0.1.3'],
     'name': 'quicklogging'
 }
 
