@@ -1,6 +1,6 @@
 .. _majerti: http://majerti.fr
 
-|docs|
+|docs| - read the doc there (github rst is broken): http://quicklogging.readthedocs.io/en/latest/
 
 Documentation for quicklogging
 ================================
