@@ -9,12 +9,9 @@ Documentation for quicklogging
 Resources
 -------------
 
-* |docs| - read the doc on readthedocs_ (github rst is broken)
+* doc: |docs| - read the doc on readthedocs_ (github rst is broken)
 * source code: on github_
-* package
-
-    .. image:: https://badge.fury.io/py/quicklogging.svg
-        :target: https://badge.fury.io/py/quicklogging
+* package: |package| 
 
 
 What is quicklogging
@@ -52,8 +49,11 @@ Licence, original authors
 * MIT (see file ``LICENCE`` ).
 * authors: majerti_ - Feth AREZKI
 
-Compatibility
+Requirements
 --------------
+
+Python versions
+................
 
 According to travis-ci_ : 
 
@@ -61,6 +61,12 @@ According to travis-ci_ :
 * Python 3.5-dev: ok
 * Python nightly: ok
 * Python 2.7: NOT ok, doesn't have importlib.abc
+ 
+Libs required
+.................
+
+None ! unless you're running the tests.
+So I've got this easy badge: |requirements|.
 
 
 Doc contents
@@ -75,7 +81,15 @@ Doc contents
    source_doc
    logging_survival
 
+   
+.. |package| image:: https://badge.fury.io/py/quicklogging.svg
+        :target: https://badge.fury.io/py/quicklogging
+
 .. |docs| image:: https://readthedocs.org/projects/quicklogging/badge/?version=latest
     :alt: Documentation Status
     :scale: 100%
     :target: https://quicklogging.readthedocs.io/en/latest/?badge=latest
+
+.. |requirements| image:: https://requires.io/github/majerteam/quicklogging/requirements.svg?branch=master
+     :target: https://requires.io/github/majerteam/quicklogging/requirements/?branch=master
+     :alt: Requirements Status
