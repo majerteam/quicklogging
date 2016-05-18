@@ -1,9 +1,24 @@
 .. _majerti: http://majerti.fr
-
-|docs| - read the doc there (github rst is broken): http://quicklogging.readthedocs.io/en/latest/
+.. _readthedocs: http://quicklogging.readthedocs.io/en/latest/
+.. _github: https://github.com/majerteam/quicklogging
+.. _travis-ci: https://travis-ci.org/majerteam/quicklogging/
 
 Documentation for quicklogging
 ================================
+
+Resources
+-------------
+
+* |docs| - read the doc on readthedocs_ (github rst is broken)
+* source code: on github_
+* package
+
+    .. image:: https://badge.fury.io/py/quicklogging.svg
+        :target: https://badge.fury.io/py/quicklogging
+
+
+What is quicklogging
+---------------------
 
 *quicklogging* is a Python :py:mod:`logging` wrapper to 
 
@@ -37,9 +52,19 @@ Licence, original authors
 * MIT (see file ``LICENCE`` ).
 * authors: majerti_ - Feth AREZKI
 
+Compatibility
+--------------
 
-Contents
----------
+According to travis-ci_ : 
+
+* Python 3.5: ok
+* Python 3.5-dev: ok
+* Python nightly: ok
+* Python 2.7: NOT ok, doesn't have importlib.abc
+
+
+Doc contents
+-------------
 
 .. toctree::
    :numbered:
