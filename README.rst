@@ -2,6 +2,7 @@
 .. _readthedocs: http://quicklogging.readthedocs.io/en/latest/
 .. _github: https://github.com/majerteam/quicklogging
 .. _travis-ci: https://travis-ci.org/majerteam/quicklogging/
+.. _stringimporter: https://github.com/majerteam/stringimporter
 
 Documentation for quicklogging
 ================================
@@ -27,16 +28,17 @@ to the code at hand:
 
 .. important:: 
 
-    the name of the logger is the name of the module making the call
+    The name of the logger is the name of the module making the call.
+
 
 For instance, if you log from ``project/models/chair.py``, your logger will be named ``project.models.chair``.
 
-
+This is a very important feature:
 
 *Advantage #1 of this naming scheme* 
 
-        the configuration of the :py:class:`logging.Logger` s and handlers is much 
-        easier -muting, changing verbosity for a particular piece of code etc
+        the *configuration* of the :py:class:`logging.Logger` s and handlers is much 
+        easier —muting, changing verbosity for a particular piece of code etc
 
 *Advantage #2*
 
@@ -60,12 +62,16 @@ According to travis-ci_ :
 * Python 3.5: ok
 * Python 3.5-dev: ok
 * Python nightly: ok
-* Python 2.7: NOT ok, doesn't have importlib.abc
+
+Cannot test, but should work because I don't know of API changes:
+
+* Python 2.7: *testing* NOT ok (Python 2.7 doesn't have :py:class:``importlib.abc.SourceLoader``
  
 Libs required
 .................
 
-None ! unless you're running the tests.
+None ! unless you're running the tests (then you need stringimporter_).
+.
 So I've got this easy badge: |requirements|.
 
 
