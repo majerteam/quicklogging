@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Feth AREZKI
+# This file is distributed under the same license as the quicklogging
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: quicklogging 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-19 15:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../source_doc.rst:2
+msgid "Source doc"
+msgstr ""
+
+#: of quicklogging:2
+msgid "Module quicklogging"
+msgstr ""
+
+#: of quicklogging:4
+msgid "(logging with a bit of cozyness)"
+msgstr ""
+
+#: of quicklogging:7
+msgid "log wrappers"
+msgstr ""
+
+#: of quicklogging:9
+msgid ""
+"Supplied convenience functions fetch a logger with the name of the module"
+" from which you're calling them."
+msgstr ""
+
+#: of quicklogging.debug:1
+msgid "wrapper for :py:meth:`logging.Logger.debug`"
+msgstr ""
+
+#: of quicklogging.debug:3
+msgid "Variadic parameters: see :py:meth:`logging.Logger.debug`"
+msgstr ""
+
+#: of quicklogging.critical:5 quicklogging.debug:5 quicklogging.error:5
+#: quicklogging.exception:5 quicklogging.info:5 quicklogging.warning:5
+msgid "see :py:func:`quicklogging.base.get_logger`"
+msgstr ""
+
+#: of quicklogging.info:1
+msgid "wrapper for :py:meth:`logging.Logger.info`"
+msgstr ""
+
+#: of quicklogging.info:3
+msgid "Variadic parameters: see :py:meth:`logging.Logger.info`"
+msgstr ""
+
+#: of quicklogging.warning:1
+msgid "wrapper for :py:meth:`logging.Logger.warning`"
+msgstr ""
+
+#: of quicklogging.warning:3
+msgid "Variadic parameters: see :py:meth:`logging.Logger.warning`"
+msgstr ""
+
+#: of quicklogging.error:1
+msgid "wrapper for :py:meth:`logging.Logger.error`"
+msgstr ""
+
+#: of quicklogging.error:3
+msgid "Variadic parameters: see :py:meth:`logging.Logger.error`"
+msgstr ""
+
+#: of quicklogging.critical:1
+msgid "wrapper for :py:meth:`logging.Logger.critical`"
+msgstr ""
+
+#: of quicklogging.critical:3
+msgid "Variadic parameters: see :py:meth:`logging.Logger.critical`"
+msgstr ""
+
+#: of quicklogging.exception:1
+msgid "wrapper for :py:meth:`logging.Logger.exception`"
+msgstr ""
+
+#: of quicklogging.exception:3
+msgid "Variadic parameters: see :py:meth:`logging.Logger.exception`"
+msgstr ""
+
+#: of quicklogging:25
+msgid "print handlers"
+msgstr ""
+
+#: of quicklogging.catch_prints:1
+msgid "configure the print() catching: redirects calls to a logger"
+msgstr ""
+
+#: of quicklogging.catch_prints:3
+msgid "By default, only catches calls to print() from logger"
+msgstr ""
+
+#: of quicklogging.catch_prints:5
+msgid "named after the calling module"
+msgstr ""
+
+#: of quicklogging.catch_prints:6
+msgid "children of this logger"
+msgstr ""
+
+#: of quicklogging.catch_prints:11
+msgid "API discussion welcome."
+msgstr ""
+
+#: of quicklogging.catch_prints:13
+msgid "You anderstand the API is not stable."
+msgstr ""
+
+#: of quicklogging.catch_prints:15
+msgid "include children of logger designed by name"
+msgstr ""
+
+#: of quicklogging.catch_prints:16
+msgid ""
+"should catch all print() diregarding where they're from ?  .. warning::"
+"      take care of logging propagation (``Logger.propagate()̀``)"
+msgstr ""
+
+#: of quicklogging.catch_prints:16
+msgid "should catch all print() diregarding where they're from ?"
+msgstr ""
+
+#: of quicklogging.catch_prints:21
+msgid "take care of logging propagation (``Logger.propagate()̀``)"
+msgstr ""
+
+#: of quicklogging.catch_prints:23
+msgid "function to use for logging messages"
+msgstr ""
+
+#: of quicklogging.catch_prints:25
+msgid "Possible extension ideas:"
+msgstr ""
+
+#: of quicklogging.catch_prints:27
+msgid "wrap arbitrary output stream"
+msgstr ""
+
+#: of quicklogging.catch_prints:28
+msgid "different log functions depending on regex applied on messages"
+msgstr ""
+
+#: of quicklogging.catch_prints:29
+msgid "make it configurable from config file"
+msgstr ""
+
+#: of quicklogging.catch_prints:30
+msgid "allow exclusion of specific modules"
+msgstr ""
+
+#: of quicklogging.warn_prints:1
+msgid "Activate warning when print is called"
+msgstr ""
+
+#: of quicklogging.warn_prints:3
+msgid ""
+"defaults to False, ie. defaults to only warn about current module, "
+"ignoring imports"
+msgstr ""
+
+#: of quicklogging.base:2
+msgid "Module quicklogging.base"
+msgstr ""
+
+#: of quicklogging.base.get_logger:1
+msgid "wrapper for getLogger"
+msgstr ""
+
+#: of quicklogging.base.get_logger:3
+msgid ""
+"Typical use, say you're in project/module/submodule.py and you want a "
+"logger."
+msgstr ""
+
+#: of quicklogging.base.get_logger:23
+msgid "defaults to 0. How deep to look in the stack for fetching the logger name."
+msgstr ""
+
+#: of quicklogging.base.get_logger:25
+msgid "a logger named after the module at depth ``stackoverhead``."
+msgstr ""
+
+#: of quicklogging.base._log_with_level:1
+msgid "Internal convenience function to log with appropriate level"
+msgstr ""
+
+#: of quicklogging.base._log_with_level:3
+msgid "This function is called by the main log wrappers."
+msgstr ""
+
+#: of quicklogging.base._log_with_level:5
+msgid ""
+"Fetches the appropriate logger, then the function named after the param "
+"``func_name``. This is slow, you'd better use :py:func`get_logger`."
+msgstr ""
+
+#: of quicklogging.base._log_with_level:8
+msgid "One of 'debug', 'info', 'error', etc"
+msgstr ""
+
+#: of quicklogging.base._log_with_level:9
+msgid "defaults to 0. How deep to look in the stack for"
+msgstr ""
+
+#: of quicklogging.stream_wrapper:2
+msgid "Module quicklogging.stream_wrapper"
+msgstr ""
+
+#: of quicklogging.stream_wrapper.StreamWrapper:1
+msgid "Implementation detail"
+msgstr ""
+
