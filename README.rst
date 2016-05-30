@@ -79,6 +79,8 @@ So I've got this easy badge: |requirements|.
 Doc contents
 -------------
 
+(if toctree is not displayed, then build the docs with sphinx or read them on readthedocs : |docs|.
+
 .. toctree::
    :numbered:
    :maxdepth: 2
