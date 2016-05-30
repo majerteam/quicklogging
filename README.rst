@@ -13,6 +13,7 @@ Resources
 * doc: |docs| - read the doc on readthedocs_ (github rst is broken)
 * source code: on github_
 * package: |package| 
+* ci tests: |citests|
 
 
 What is quicklogging
@@ -99,3 +100,7 @@ Doc contents
 .. |requirements| image:: https://requires.io/github/majerteam/quicklogging/requirements.svg?branch=master
      :target: https://requires.io/github/majerteam/quicklogging/requirements/?branch=master
      :alt: Requirements Status
+
+.. |citests| image:: https://travis-ci.org/majerteam/quicklogging.svg?branch=master
+    :alt: Tests status with travis-ci
+    :target: https://travis-ci.org/majerteam/quicklogging
