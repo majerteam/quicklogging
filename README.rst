@@ -66,7 +66,7 @@ According to travis-ci_ :
 
 Cannot test, but should work because I don't know of API changes:
 
-* Python 2.7: *testing* NOT ok (Python 2.7 doesn't have :py:class:``importlib.abc.SourceLoader``
+* Python 2.7: *testing* NOT ok (Python 2.7 doesn't have :py:class:`importlib.abc.SourceLoader`
  
 Libs required
 .................
