@@ -23,6 +23,7 @@ class StreamWrapper:
 
         self.fed_loggers = set()
         self.fed_logger_children = set()
+        self.isatty = self.original_stream.isatty
 
     def _intercepting_logger(self):
         target_logger = get_logger(stackoverhead=2)
