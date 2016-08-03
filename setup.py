@@ -10,7 +10,7 @@ config = {
     'url': 'https://github.com/majerteam/quicklogging',
     'download_url': 'https://github.com/majerteam/quicklogging',
     'author_email': 'tech@majerti.fr',
-    'version': '0.2',
+    'version': '0.3',
     'packages': ['quicklogging'],
     'setup_requires': ['pytest-runner'],
     'tests_require': ['pytest', 'pytest-cov', 'six', 'stringimporter>=0.1.3'],
