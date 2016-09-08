@@ -1,0 +1,21 @@
+package:
+  name: quicklogging
+  version: "0.3"
+
+source:
+  path: .
+
+requirements:
+  build:
+    - python
+  run:
+    - python
+
+build:
+  preserve_egg_dir: True
+  script: python setup.py install
+
+about:
+  home: https://github.com/majerteam/quicklogging
+  license: MIT
+  license_file: LICENSE

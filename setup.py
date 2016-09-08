@@ -12,8 +12,8 @@ config = {
     'author_email': 'tech@majerti.fr',
     'version': '0.3',
     'packages': ['quicklogging'],
-    'setup_requires': ['pytest-runner'],
-    'tests_require': ['pytest', 'pytest-cov', 'six', 'stringimporter>=0.1.3'],
+    'setup_requires': [],
+    'tests_require': ['pytest-runner', 'pytest', 'pytest-cov', 'six', 'stringimporter>=0.1.3'],
     'name': 'quicklogging'
 }
 
