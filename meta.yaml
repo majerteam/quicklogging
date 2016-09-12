@@ -12,6 +12,7 @@ requirements:
     - python
 
 build:
+  noarch: True
   noarch_python: True
   number: 1
   preserve_egg_dir: True
