@@ -12,9 +12,10 @@ requirements:
     - python
 
 build:
+  noarch_python: True
+  number: 1
   preserve_egg_dir: True
   script: python setup.py install
-  noarch_python: True
 
 about:
   home: https://github.com/majerteam/quicklogging

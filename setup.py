@@ -14,7 +14,8 @@ config = {
     'packages': ['quicklogging'],
     'setup_requires': [],
     'tests_require': ['pytest-runner', 'pytest', 'pytest-cov', 'six', 'stringimporter>=0.1.3'],
-    'name': 'quicklogging'
+    'name': 'quicklogging',
+    'zip_safe': False,
 }
 
 setup(**config)
