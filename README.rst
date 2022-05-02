@@ -105,6 +105,6 @@ Doc contents
      :target: https://requires.io/github/majerteam/quicklogging/requirements/?branch=master
      :alt: Requirements Status
 
-.. |citests| image:: https://travis-ci.org/majerteam/quicklogging.svg?branch=master
+.. |citests| image:: https://github.com/majerteam/quicklogging/actions/workflows/python-package.yml/badge.svg)
     :alt: Tests status with travis-ci
     :target: https://travis-ci.org/majerteam/quicklogging
