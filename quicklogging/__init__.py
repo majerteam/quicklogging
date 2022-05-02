@@ -114,7 +114,7 @@ def warn_prints(catch_all=False):
 
     :param bool catch_all: defaults to False, ie. defaults to only warn about
         current module, ignoring imports"""
-    raise NotImplementedError("API is yet to be defined, please help me.")
+    raise NotImplementedError("warn_prints: API is yet to be defined, please help me.")
 
 
 def catch_prints(
