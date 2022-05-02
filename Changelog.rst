@@ -14,3 +14,9 @@
 ================
 
 * Better advertising text, install method
+
+2022-05-02 0.4
+==============
+
+* New feature: silence a logger
+
