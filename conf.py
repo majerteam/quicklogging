@@ -54,7 +54,7 @@ master_doc = 'README'
 
 # General information about the project.
 project = 'quicklogging'
-copyright = '2016, Feth AREZKI'
+copyright = '2016-2022, Feth AREZKI, majerti'
 author = 'Feth AREZKI'
 
 # The version info for the project you're documenting, acts as replacement for
