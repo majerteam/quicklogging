@@ -9,3 +9,8 @@
 ================
 
 * Precision in an error report
+
+2022-05-02 0.3.2
+================
+
+* Better advertising text, install method
