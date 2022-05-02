@@ -1,37 +1,20 @@
-import contextlib
+"""Testing quicklogging
+
+fixtures are in conftest.py.
+"""
 import logging
+import collections
 import six
 
-import py.test
-
-
-_LOGGING_CONFIGURED_STREAM = None
-
-
-@py.test.fixture(scope="session")
-def streamconfig():
-    global _LOGGING_CONFIGURED_STREAM
-    if not _LOGGING_CONFIGURED_STREAM:
-        _LOGGING_CONFIGURED_STREAM = six.StringIO()
-        logging.basicConfig(stream=_LOGGING_CONFIGURED_STREAM, level=logging.INFO)
-
-    @contextlib.contextmanager
-    def manager():
-        _LOGGING_CONFIGURED_STREAM.truncate(0)  # reset stream
-        _LOGGING_CONFIGURED_STREAM.seek(0)  # rewind stream
-        yield _LOGGING_CONFIGURED_STREAM
-        _LOGGING_CONFIGURED_STREAM.seek(0)  # rewind stream
-
-    return manager
+import quicklogging
 
 
 _STREAM = None
 
 
-import collections
-import quicklogging
-
 class FakeStream:
+    """Faking a writeable/readable stream with StringIO
+    """
     def __init__(self):
         self.buckets = collections.defaultdict(
             lambda: six.StringIO()
