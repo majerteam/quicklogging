@@ -41,6 +41,6 @@ survival guide with the logging module
 Quicklogging quality
 ====================
 
-Quicklogging is covered by tests and has been working for years for what I do with it, but I wouldn't promise there is no bug.
+Quicklogging is covered by a test suite and has been working for years for me, but I wouldn't promise there is no bug.
 
 I have tried documenting the code but would welcome proofreading; the API may change after discussion.
