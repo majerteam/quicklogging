@@ -58,13 +58,7 @@ Requirements
 Python versions
 ................
 
-According to travis-ci_ : 
-
-* Python 3.5: ok
-* Python 3.5-dev: ok
-* Python nightly: ok
-
-I tested 3.6 to 3.9 without annoyances.
+I tested 3.5 to 3.10 without annoyances.
 
 Cannot test, but should work because I don't know of API changes:
 
@@ -105,6 +99,7 @@ Doc contents
      :target: https://requires.io/github/majerteam/quicklogging/requirements/?branch=master
      :alt: Requirements Status
 
-.. |citests| image:: https://github.com/majerteam/quicklogging/actions/workflows/python-package.yml/badge.svg)
-    :alt: Tests status with travis-ci
-    :target: https://travis-ci.org/majerteam/quicklogging
+.. |citests| image:: https://github.com/majerteam/quicklogging/actions/workflows/python-package.yml/badge.svg
+    :alt: Tests status with github actions
+    :target: https://github.com/majerteam/quicklogging/actions/workflows/python-package.yml
+
