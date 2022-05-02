@@ -64,6 +64,8 @@ According to travis-ci_ :
 * Python 3.5-dev: ok
 * Python nightly: ok
 
+I tested 3.6 to 3.9 without annoyances.
+
 Cannot test, but should work because I don't know of API changes:
 
 * Python 2.7: *testing* NOT ok (Python 2.7 doesn't have :py:class:`importlib.abc.SourceLoader`
