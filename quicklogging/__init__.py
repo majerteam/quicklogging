@@ -33,11 +33,24 @@ print handlers
 
 """
 
+import logging
 import sys
 
 from .base import _log_with_level
 from .base import get_logger
 from .stream_wrapper import StreamWrapper
+
+
+def silence_logger(name):
+    """Mutes a logger of your choice.
+
+    Usecase: sometimes an imported library prints (socket.if_nameindex() for
+    instance); catching their print() calls is not enough.
+
+    Just call ``silence_logger("getmac")`` and ... enjoy the silence!
+    """
+    the_logger = logging.getLogger(name)
+    the_logger.setLevel(100)
 
 
 def debug(*args, **kwargs):
