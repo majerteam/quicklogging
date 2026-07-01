@@ -16,7 +16,7 @@ build:
   noarch_python: True
   number: 1
   preserve_egg_dir: True
-  script: python setup.py install
+  script: pip install .
 
 about:
   home: https://github.com/majerteam/quicklogging
