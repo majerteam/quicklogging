@@ -8,7 +8,6 @@ version = "0.4.1"
 description = "logging made easy, can convert print() calls into logs without changing code"
 authors = [{name = "Feth AREZKI (majerti)", email = "feth.arezki@majerti.fr"}]
 classifiers = [
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
     "Development Status :: 5 - Production/Stable",
