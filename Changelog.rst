@@ -20,3 +20,7 @@
 
 * New feature: silence a logger
 
+2026-07-01 0.4.1
+================
+
+* Move to pyproject.toml
